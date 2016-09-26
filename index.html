@@ -5,10 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
-	
-	<!-- font-family: 'Roboto', sans-serif; -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic" rel="stylesheet">
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link href="css/materialize.min.css" rel="stylesheet">
 	<link href="css/main.min.css" rel="stylesheet">
 
@@ -17,7 +14,44 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="page">
+	<header class="header">
+		<div class="header__parallax parallax-container">
+			<div class="header__parallax-wrap parallax">
+				<img class="header__image" src="img/header-bg.jpg">
+			</div>
+		</div>
+		<div class="header__wrap container">
+			<div class="header__row row">
+				<div class="logo col l2">
+					<a class="logo__link" href="#">
+						res<span class="logo__blue">u</span>me
+					</a>
+				</div>
+				<nav class="menu col l6 offset-l4">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#" class="menu__link">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="#skills" class="menu__link">Навыки</a>
+						</li>
+						<li class="menu__item">
+							<a href="#works" class="menu__link">Работы</a>
+						</li>
+						<li class="menu__item">
+							<a href="#contacts" class="menu__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<h1 class="header__quote row">
+					<p class="header__text">У меня вот такое мнение:</p>
+					<p class="header__text">люди преуспевают если им нравится.﻿</p>	 
+				</h1>
+			</div>
+		</div>
+	</header>
+
 
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.min.js"></script>

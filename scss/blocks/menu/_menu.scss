@@ -1,0 +1,35 @@
+.menu {
+	margin-top: 40px;
+	margin-bottom: 170px;
+	position: relative;
+
+	background-color: transparent;
+
+	box-shadow: none;
+
+	z-index: 3;
+	
+	&__item {
+		border: 2px solid transparent;
+		
+		transition: 0.3s;
+
+		&:hover {
+			border: 2px solid $blue;
+		}
+	}
+
+	&__link {
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		line-height: 20px;
+
+		transition: 0.3s;
+
+		&:hover {
+			background-color: transparent;
+			color: $blue;
+		}
+	}
+}

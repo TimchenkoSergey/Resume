@@ -1,0 +1,19 @@
+.logo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 5px;
+
+	z-index: 3;
+	
+	&__link {
+		color: $text-color;
+	}
+
+	&__blue {
+		color: $blue;
+	}
+}

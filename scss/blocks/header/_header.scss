@@ -1,0 +1,56 @@
+.header {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+
+	&::after {
+		content: '';
+
+		width: 100%;
+		height: 120px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		background-color: rgba(53, 63, 70, 0.8);
+
+		z-index: 2;
+	}
+
+	&__parallax {
+		width: 100%;
+		height: 650px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&__quote {
+		margin: 0;
+		margin-bottom: 200px;
+		position: relative;
+
+		font-size: 42px;
+		font-weight: 200;
+		line-height: 45px;
+		text-align: center;
+
+		z-index: 2;
+	}
+
+	&__text {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		display: inline-block;
+
+		background-color: rgba(53, 63, 70, 0.8);
+
+		line-height: 65px;
+	}
+}
+.parallax {
+	z-index: 1;
+}
