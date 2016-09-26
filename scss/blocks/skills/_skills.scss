@@ -1,0 +1,48 @@
+.skills {
+	margin-top: -15px;
+
+	background-color: $blue;
+
+	text-align: center;
+
+	&__header {
+		margin-top: 0;
+		padding-top: 30px;
+		
+		font-size: 40px;
+		font-weight: 400;
+		letter-spacing: 3px;
+	}
+
+	&__head {
+		margin-bottom: 60px;
+		position: relative;
+
+		font-size: 22px;
+		font-weight: 400;
+
+		&::after {
+			content: " ";
+
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			top: 45px;
+			left: calc(50% - 8px);
+
+			background-color: #fff;
+
+			transform: rotate(-45deg);
+
+			transition: 0.5s;
+		}
+
+		&:hover:after {
+			transform: rotate(315deg);
+		}
+	}
+
+	&__description {
+		margin-bottom: 40px;
+	}
+}
