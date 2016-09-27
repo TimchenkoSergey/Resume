@@ -1,0 +1,68 @@
+.works {
+	padding-bottom: 40px;
+
+	&__header {
+	margin-top: 0;
+		padding-top: 40px;
+		padding-bottom: 30px;
+		
+		color: $text-color-dark;
+		font-size: 40px;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-align: left;
+	}
+
+	&__row {
+		padding-bottom: 30px;
+	}
+
+	&__picture {
+		position: relative;
+		
+		transition: 0.5s;
+
+		&:hover {
+			transform: scale(1.1);
+
+			&:after {
+				width: 0;
+				height: 0;
+			}
+		}
+
+		&::after {
+			content: " ";
+
+			width: 230px;
+			height: 210px;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 11px;
+
+			background-color: rgba(81, 95, 103, 0.7);
+
+			transition: 0.5s;
+		}
+	}
+
+	&__image {
+		width: 230px;
+		height: 210px;
+		display: block;
+		position: relative;
+
+		
+
+		&:hover {
+			
+
+			//&:after {
+			//	display: block;
+			//}
+		}
+
+		
+	}
+}
