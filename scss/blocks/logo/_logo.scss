@@ -11,9 +11,21 @@
 	
 	&__link {
 		color: $text-color;
+		
+		transition: 0.5s;
+
+		&:hover {
+			font-size: 26px;
+
+			.logo__blue {
+				color: #05A5C2;
+			}
+		}
 	}
 
 	&__blue {
 		color: $blue;
+
+		transition: 0.5s;
 	}
 }

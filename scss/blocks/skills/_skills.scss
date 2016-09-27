@@ -7,11 +7,13 @@
 
 	&__header {
 		margin-top: 0;
-		padding-top: 30px;
+		padding-top: 40px;
+		padding-bottom: 30px;
 		
 		font-size: 40px;
 		font-weight: 400;
 		letter-spacing: 3px;
+		text-align: left;
 	}
 
 	&__head {
@@ -34,15 +36,24 @@
 
 			transform: rotate(-45deg);
 
-			transition: 0.5s;
+			transition: 0.9s;
 		}
 
-		&:hover:after {
-			transform: rotate(315deg);
+		&:hover {
+			font-size: 25px;
+
+			transition: 0.3s;
+			
+			&:after {
+				width: 20px;
+				height: 20px;
+
+				transform: rotate(315deg);
+			}
 		}
 	}
 
 	&__description {
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 	}
 }
