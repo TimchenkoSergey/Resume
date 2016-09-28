@@ -15,6 +15,42 @@
 		background-color: rgba(81, 95, 103, 0.5);
 
 		z-index: 2;
+
+		@media only screen and (max-width: 1065px) {
+			& {
+				height: 550px;
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			& {
+				height: 630px;
+			}
+		}
+
+		@media only screen and (max-width: 650px) {
+			& {
+				height: 730px;
+			}
+		}
+
+		@media only screen and (max-width: 500px) {
+			& {
+				height: 850px;
+			}
+		}
+
+		@media only screen and (max-width: 425px) {
+			& {
+				height: 950px;
+			}
+		}
+
+		@media only screen and (max-width: 385px) {
+			& {
+				height: 1050px;
+			}
+		}
 	}
 
 	&__parallax {
@@ -23,6 +59,42 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+
+		@media only screen and (max-width: 1065px) {
+			& {
+				height: 550px;
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			& {
+				height: 630px;
+			}
+		}
+
+		@media only screen and (max-width: 650px) {
+			& {
+				height: 730px;
+			}
+		}
+
+		@media only screen and (max-width: 500px) {
+			& {
+				height: 850px;
+			}
+		}
+
+		@media only screen and (max-width: 425px) {
+			& {
+				height: 950px;
+			}
+		}
+
+		@media only screen and (max-width: 385px) {
+			& {
+				height: 1050px;
+			}
+		}
 	}
 
 	&__header {
@@ -56,6 +128,13 @@
 			z-index: 3;
 
 			transition: 0.8s;
+		}
+
+		@media only screen and (max-width: 500px) {
+			& {
+				padding-top: 20px;
+				padding-bottom: 15px;
+			}
 		}
 	}
 
