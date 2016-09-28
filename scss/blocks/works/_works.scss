@@ -33,11 +33,23 @@
 
 	&__row {
 		padding-bottom: 30px;
+		display: flex;
+
+		justify-content: space-around;
+
+		@media only screen and (max-width: 990px) {
+			& {
+				display: block;
+				padding-bottom: 0;
+			}
+		}
 	}
 
 	&__picture {
 		position: relative;
 		
+		text-align: center;
+
 		transition: 0.5s;
 
 		&:hover {
@@ -56,30 +68,35 @@
 			display: block;
 			position: absolute;
 			top: 0;
-			left: 11px;
+			left: 0;
 
 			background-color: rgba(81, 95, 103, 0.7);
 
 			transition: 0.5s;
+		}
+
+		@media only screen and (max-width: 990px) {
+			& {
+				width: 49%;
+				display: inline-block;
+
+				&::after {
+					display: none;
+				}
+			}
+		}
+
+		@media only screen and (max-width: 990px) {
+			& {
+				width: 100%;
+			}
 		}
 	}
 
 	&__image {
 		width: 230px;
 		height: 210px;
-		display: block;
+		display: inline-block;
 		position: relative;
-
-		
-
-		&:hover {
-			
-
-			//&:after {
-			//	display: block;
-			//}
-		}
-
-		
 	}
 }
