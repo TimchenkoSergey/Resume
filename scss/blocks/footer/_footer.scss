@@ -1,0 +1,48 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	background-color: #353f47;
+
+	&__header {
+		margin-top: 0;
+		padding-top: 40px;
+		padding-bottom: 30px;
+		
+		font-size: 40px;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-align: left;
+
+		&:hover {
+			&:after {
+				width: 235px;
+			}
+		}
+
+		&::after {
+			content: " ";
+
+			width: 60px;
+			height: 3px;
+			display: block;
+
+			background-color: $text-color;
+
+			transition: 0.8s;
+		}
+	}
+
+	&__phone {
+		margin-bottom: 20px;
+	}
+
+	&__data {
+		display: block;
+		margin-top: 10px;
+		
+		font-size: 18px;
+		text-transform: none;
+		text-decoration: underline;
+	}
+}
