@@ -16,27 +16,27 @@
 
 		z-index: 2;
 
-		@media only screen and (max-width: 1065px) {
+		@media only screen and (max-width: 1080px) {
 			& {
 				height: 550px;
 			}
 		}
 
-		@media only screen and (max-width: 800px) {
+		@media only screen and (max-width: 815px) {
 			& {
 				height: 630px;
 			}
 		}
 
-		@media only screen and (max-width: 650px) {
+		@media only screen and (max-width: 665px) {
 			& {
-				height: 730px;
+				height: 700px;
 			}
 		}
 
-		@media only screen and (max-width: 500px) {
+		@media only screen and (max-width: 565px) {
 			& {
-				height: 850px;
+				height: 800px;
 			}
 		}
 
@@ -47,6 +47,12 @@
 		}
 
 		@media only screen and (max-width: 385px) {
+			& {
+				height: 1000px;
+			}
+		}
+		
+		@media only screen and (max-width: 345px) {
 			& {
 				height: 1050px;
 			}
@@ -60,27 +66,27 @@
 		top: 0;
 		left: 0;
 
-		@media only screen and (max-width: 1065px) {
+		@media only screen and (max-width: 1080px) {
 			& {
 				height: 550px;
 			}
 		}
 
-		@media only screen and (max-width: 800px) {
+		@media only screen and (max-width: 815px) {
 			& {
 				height: 630px;
 			}
 		}
 
-		@media only screen and (max-width: 650px) {
+		@media only screen and (max-width: 665px) {
 			& {
-				height: 730px;
+				height: 700px;
 			}
 		}
 
-		@media only screen and (max-width: 500px) {
+		@media only screen and (max-width: 565px) {
 			& {
-				height: 850px;
+				height: 800px;
 			}
 		}
 
@@ -91,6 +97,12 @@
 		}
 
 		@media only screen and (max-width: 385px) {
+			& {
+				height: 1000px;
+			}
+		}
+
+		@media only screen and (max-width: 345px) {
 			& {
 				height: 1050px;
 			}
