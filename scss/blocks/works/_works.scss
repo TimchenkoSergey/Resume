@@ -74,6 +74,21 @@
 		}
 	}
 
+	&__tec {
+		position: absolute;
+		display: inline-block;
+		width: 180px;
+		left: 25px;
+		top: 25px;
+
+		color: $text-color;
+		text-transform: uppercase;
+
+		z-index: 3;
+
+		transition: 0.4s;
+	}
+
 	&__picture {
 		position: relative;
 		
@@ -84,13 +99,17 @@
 		&:hover {
 			transform: scale(1.1);
 
+			& .works__tec {
+				opacity: 0;
+			}
+
 			&:after {
 				background-color: rgba(81, 95, 103, 0);
 			}
 		}
 
 		&::after {
-			content: " ";
+			content: "";
 
 			width: 230px;
 			height: 210px;
